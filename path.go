@@ -2,7 +2,7 @@ package router
 
 import "github.com/savsgio/gotils"
 
-// cleanPath removes '.' if it's the final chars of the path
+// cleanPath removes the '.' if it is the last character of the route
 func cleanPath(path string) string {
 	lenPath := len(path)
 
